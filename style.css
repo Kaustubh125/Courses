@@ -1,0 +1,175 @@
+body{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg, rgba(25,26,44,1) 0%, rgba(19,21,65,1) 48%, rgba(25,26,44,1) 100%);
+}
+#title{
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 12% 7%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.nav-item{
+    font-size: 1.5rem;
+    padding: 0 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+#register{
+    border: 3px solid #52FF00;
+    color: #fff;
+    border-radius: 100px;
+    font-size: 1.5rem;
+    padding: 5px 29px;
+}
+#register:hover{
+    background-color: #52FF00;
+    color: #161735;
+}
+h1{
+    line-height: 1.5;
+    font-size: 5.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.text{
+    color: #52FF00;
+}
+#getStart{
+    color: #161735;
+    background-color: #52FF00;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    padding: 15px 30px;
+}
+#getStart:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #52FF00;
+}
+.bg-shape {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient( #6B47B8, #161735 80%);
+    border-radius: 100px;
+    margin-top: 160px;
+}
+.position-relative {
+    margin-left: 50px;
+}
+#courses{
+    padding: 100px;
+}
+.course{
+    margin-bottom: 35px;
+}
+.text1{
+    color: #52FF00;
+    font-size: 1.25rem;
+    margin-bottom: 1px;
+}
+h2{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.course-title{
+    color: #fff;
+}
+.card{
+    background-color: #272159;
+    border-radius: 20px;
+    padding: 3% 2%;
+}
+.img-box{
+    width: 380px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-bottom: 16px;
+}
+.card-img-top{
+    border-radius: 20px;
+    margin: 1px 7px;
+    width: -webkit-fill-available;
+}
+.card-title{
+    color: #52FF00;
+}
+.btn-primary{
+    background-color: #52FF00;
+    border-color: #52FF00;
+    color: #272159;
+    padding: 10px 20px;
+}
+.btn-primary:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #52FF00;
+}
+#about-us{
+    text-align: center;
+    padding: 100px 12% 40px;
+}
+.about-us{
+    font-size: 4rem;
+}
+
+.h2{
+    font-size: 28px;
+    margin-top: 90px;
+    padding-left: 125px;
+}
+.contact-title{
+    color: #525252;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    font-size: 8rem;
+    opacity: 0.5;
+            
+}
+.foreground-text{
+    font-size: 65px;
+    font-weight: bold;
+    color: #52FF00; 
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+.form{
+    padding: 3% 15% 7% ;
+}
+.form-control{
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #52FF00;
+    border-radius: 0;
+    width: 90%;
+
+}
+.form-control::placeholder{
+    color: #fff;
+    opacity: 0.8;
+    background-color: transparent;
+
+}
+.form-group {
+    margin-top: 55px;
+    width: 106%;
+}
+.submit{
+    font-size: 2rem;
+    padding: 15px 45px;
+    border-radius: 0;
+}
