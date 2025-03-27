@@ -164,6 +164,12 @@ h2{
     background-color: transparent;
 
 }
+.form-control:focus{
+    background-color: transparent;
+    color: white;
+    border-color: #80bdff;
+    box-shadow: none;
+}
 .form-group {
     margin-top: 55px;
     width: 106%;
